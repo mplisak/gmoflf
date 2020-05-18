@@ -20,4 +20,4 @@ Uživatel bude počáteční pole vybírat levým tlačítkem myši, pravým bud
 
 ## Kód
 
-V JavaScriptu bude samotný algoritmus pracující s buňkami. Spolu s CSS a html bude také vykreslovat "chování" buněk. 
+V **JavaScript**u bude samotný algoritmus pracující s buňkami. Spolu s **CSS** a **html** bude také vykreslovat "chování" buněk. 
