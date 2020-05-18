@@ -13,4 +13,4 @@ Na počátku byly čtyři pravidla:
 
 Před spuštěním hry uživatel vybere (myší) několik polí, které budou živými buňkami. Po spuštění už hru nelze ovlivňovat, vyvíjí se sama a (což je matematickou podstatou hry) dost nepředvídatelně.
 
-*Game of Life* je postavená vlastně výhradně na algoritmu, ketrý vykonává sadu příkazů (čtyři pravidla), proto myslím, že se hodí do zadání úkolu.
+*Game of Life* je postavená vlastně výhradně na algoritmu, který vykonává sadu příkazů (čtyři pravidla), proto myslím, že se hodí do zadání úkolu.
