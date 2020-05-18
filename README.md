@@ -15,3 +15,5 @@ Před spuštěním hry uživatel vybere několik polí, které budou živými bu
 *Game of Life* je postavená vlastně výhradně na algoritmu, který vykonává sadu příkazů (čtyři pravidla), proto myslím, že se hodí do zadání úkolu.
 
 ## Ovládání
+
+Uživatel bude počáteční pole vybírat levým tlačítkem myši, pravým bude moct svůj výběr zrušit. Simulaci započne stiskem mezerníku, stejně tak ji pozastaví, a resetuje klávesou **R**.
