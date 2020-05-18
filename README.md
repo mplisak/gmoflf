@@ -10,7 +10,7 @@ Na počátku byly čtyři pravidla:
 3.    **Každá živá buňka s více než třemi živými sousedy zemře.**
 4.    **Každá mrtvá buňka s právě třemi živými sousedy oživne.**
 
-Před spuštěním hry uživatel vybere několik polí, které budou živými buňkami. Po spuštění už hru nelze ovlivňovat, vyvíjí se sama a (což je matematickou podstatou hry) dost nepředvídatelně.
+Před spuštěním hry uživatel vybere několik polí, které budou živými buňkami. Po spuštění už hru nelze ovlivňovat, vyvíjí se sama.
 
 *Game of Life* je postavená vlastně výhradně na algoritmu, který vykonává sadu příkazů (čtyři pravidla), proto myslím, že se hodí do zadání úkolu.
 
