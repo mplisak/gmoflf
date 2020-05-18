@@ -17,3 +17,7 @@ Před spuštěním hry uživatel vybere několik polí, které budou živými bu
 ## Ovládání
 
 Uživatel bude počáteční pole vybírat levým tlačítkem myši, pravým bude moct svůj výběr zrušit. Simulaci započne stiskem mezerníku, stejně tak ji pozastaví, a resetuje klávesou **R**.
+
+## Kód
+
+V JavaScriptu bude samotný algoritmus pracující s buňkami. Spolu s CSS a html bude také vykreslovat "chování" buněk. 
