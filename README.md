@@ -16,7 +16,7 @@ Před spuštěním hry uživatel vybere několik polí, které budou živými bu
 
 ## Ovládání
 
-Uživatel bude počáteční pole vybírat levým tlačítkem myši, pravým bude moct svůj výběr zrušit. Simulaci započne stiskem mezerníku, stejně tak ji pozastaví, a resetuje klávesou **R**.
+Uživatel bude počáteční pole vybírat **levým tlačítkem myši**, **pravým tlačítkem myši** bude moct svůj výběr zrušit. Simulaci započne stiskem **mezerníku**, stejně tak ji pozastaví, a resetuje klávesou **R**.
 
 ## Kód
 
