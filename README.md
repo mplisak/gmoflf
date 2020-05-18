@@ -1,5 +1,6 @@
 # gmoflf
-##Game of Life
+
+## Game of Life
 
 [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
@@ -15,4 +16,4 @@ Před spuštěním hry uživatel vybere několik polí, které budou živými bu
 
 *Game of Life* je postavená vlastně výhradně na algoritmu, který vykonává sadu příkazů (čtyři pravidla), proto myslím, že se hodí do zadání úkolu.
 
-##Ovládání
+## Ovládání
