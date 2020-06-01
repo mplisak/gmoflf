@@ -1,9 +1,13 @@
-var c = document.getElementById("canvas007");
-var ctx = c.getContext("2d");
-ctx.scale(10, 10);  
+const sc = 10;
+
+const c = document.getElementById("canvas");
+c.addEventListener("mousedown", showCoords);
+
+const ctx = c.getContext("2d");
+ctx.scale(sc, sc);  
 
 function showCoords(event) {
-	var x = event.clientX;
-	var y = event.clientY;
-	document.getElementById("coo").innerHTML = "x:" + x + " y:" + y;
+	var x = Math.floor((event.clientX - canvas.offsetLeft)/sc)-1;
+	var y = Math.floor((event.clientY - canvas.offsetTop)/sc)-1;
+	ctx.fillRect(x, y, 1, 1);
 }
