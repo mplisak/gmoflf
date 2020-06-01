@@ -1,69 +1,20 @@
-  
 <!DOCTYPE html>
 <html>
-  
   <head>
-	
-	<meta content="width=device-width">
-	
-	
-	<style>									
-		
-		body {
-			margin: 0;
-			background-color: #F1E19C;
-			font-family: 'Roboto';
-		}
-		
-		.button {
-			background-color: #2C786E;
-			color: white;
-			border: none;
-			padding: 10px 20px;
-			text-align: center;
-			font-size: 16px;
-		}
-		
-		.header {
-			background-color: #2C786E;
-			font-family: 'Times New Roman';
-			padding: 10px;
-			color: #FFFFFF;
-		}
-		
-		.footer {
-			position: absolute;
-			bottom: 10px;
-			left: 0;
-			width: 100%;
-			text-align: center;
-		}
-		
-		.canvas007 {
-			
-		}
-
-	</style>
-  
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="tres.css">
   </head>
   
   <body>
-	
 	<div class="header">
 		<h1>Game of Life</h1>
 	</div>
 	
-	<script>
-		var c = document.getElementById("canvas007");
-		var ctx = c.getContext("2d");
-		ctx.scale(10, 10);  
-	</script> 
+	<script src="dos.js"></script> 
 	
 	<p style: align="center">
 		<canvas id="canvas007" width="140" height="40" style="border:0.5px solid #813152;" onclick="showCoords(event)"></canvas>
 	</p>
-	
-	 
 	
 	<p style: align="center" >
 		<button class="button"> start </button>	
@@ -73,20 +24,10 @@
 	
 	<p id="coo"></p>
 
-	<script>
-		function showCoords(event) {
-			var x = event.clientX;
-			var y = event.clientY;
-			document.getElementById("coo").innerHTML = "x:" + x + " y:" + y;
-		}
-	</script>
-	
-	
 	
 	<div class="footer">
 		&copy;2020
 	</div>
 	
   <body/>
-
 </html>
