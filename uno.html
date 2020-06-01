@@ -54,9 +54,15 @@
 	</div>
 	
 	<p style: align="center">
-		<canvas id="canvas007" width="1400" height="400" style="border:5px solid #813152;" onclick="showCoords(event)"></canvas>
+		<canvas id="canvas007" width="140" height="40" style="border:5px solid #813152;" onclick="showCoords(event)"></canvas>
 	</p>
 	
+	<script>
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		ctx.scale(10, 10);  
+	</script>  
+	  
 	<p style: align="center" >
 		<button class="button"> start </button>	
 		<button class="button"> pause </button>	<!-- musi se po kliknuti zmenit na 'resume' -->
