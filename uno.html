@@ -7,7 +7,7 @@
 	<meta content="width=device-width">
 	
 	
-	<style>								<!-- bude v samostatném css file -->	
+	<style>									
 		
 		body {
 			margin: 0;
@@ -53,29 +53,31 @@
 		<h1>Game of Life</h1>
 	</div>
 	
-	<p style: align="center">
-		<canvas id="canvas007" width="140" height="40" style="border:5px solid #813152;" onclick="showCoords(event)"></canvas>
-	</p>
-	
 	<script>
 		var c = document.getElementById("canvas007");
 		var ctx = c.getContext("2d");
 		ctx.scale(10, 10);  
-	</script>  
-	  
+	</script> 
+	
+	<p style: align="center">
+		<canvas id="canvas007" width="140" height="40" style="border:0.5px solid #813152;" onclick="showCoords(event)"></canvas>
+	</p>
+	
+	 
+	
 	<p style: align="center" >
 		<button class="button"> start </button>	
 		<button class="button"> pause </button>	<!-- musi se po kliknuti zmenit na 'resume' -->
 		<button class="button"> clear </button>
 	</p>
 	
-	<p id="demo"></p>
+	<p id="coo"></p>
 
-	<script>								<!-- bude v samostatnem js file -->
+	<script>
 		function showCoords(event) {
 			var x = event.clientX;
 			var y = event.clientY;
-			document.getElementById("demo").innerHTML = "x:" + x + " y:" + y;
+			document.getElementById("coo").innerHTML = "x:" + x + " y:" + y;
 		}
 	</script>
 	
