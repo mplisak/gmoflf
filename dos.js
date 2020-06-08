@@ -1,14 +1,5 @@
-var a = 0;
-
-function changeText() {
-	if(a == 0) {
-		a = 1;
-		document.getElementById("b1").innerHTML = "resume";
-	}else{
-		a = 0;
-		document.getElementById("b1").innerHTML = "pause";
-	}
-}
+var pGame = 0;
+var sGame = 0;
 
 const sc = 10;
 
@@ -26,7 +17,6 @@ for (var i = 0; i < tableColumns.length; i++) {
 
 for (var i = 0; i < tableColumns.length; i++) { 
     for (var j = 0; j < tableColumns.length; j++) { 
-  
         tableColumns[i][j] = "0"; 
     } 
 } 
@@ -43,3 +33,36 @@ function fillPixel(event) {
 	}
 
 }
+
+
+
+function pauseGame() {
+	if(pGame == 0 && sGame == 1) {
+		pGame = 1;
+		document.getElementById("b1").innerHTML = "resume";
+	}else{
+		pGame = 0;
+		document.getElementById("b1").innerHTML = "pause";
+	}
+}
+
+
+
+function resetGame(){
+	sGame = 0;
+	pGame = 0;
+	document.getElementById("b1").innerHTML = "pause";
+	for (var i = 0; i < tableColumns.length; i++) { 
+		for (var j = 0; j < tableColumns.length; j++) { 
+			tableColumns[i][j] = "0"; 
+		} 
+	} 
+	ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+}
+
+function startGame() {
+	sGame = 1;
+}
+
+
