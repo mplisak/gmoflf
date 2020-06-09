@@ -28,7 +28,7 @@ fn main() {
 		<h1>Game of Life</h1>
 	</div>
 	<p>
-		<canvas id=\"canvas\" width=\"600\" height=\"400\"></canvas>
+		<canvas id=\"canvas\" width=\"1400\" height=\"400\"></canvas>
 	</p>
 	<p id=\"btns\">
 		<button class=\"button\" id=\"b1\" onclick=\"pauseGame()\"> run </button>
