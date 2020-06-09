@@ -18,7 +18,7 @@ Před spuštěním hry uživatel vybere několik polí, které budou živými bu
 
 Uživatel bude počáteční pole vybírat **levým tlačítkem myši**, **pravým tlačítkem myši** bude moct svůj výběr zrušit. Simulaci započne stiskem **mezerníku**, stejně tak ji pozastaví, a resetuje klávesou **R**.
 
-**EDIT:** Výbraná buňka bude moct být zrušena opětovným kliknutím levého tlačítka myši, mezerník a klávesa 'R' bude nahrazen html buttony.
+**EDIT:** Výbraná buňka bude moct být zrušena opětovným kliknutím levého tlačítka myši.
 
 ## Kód
 
