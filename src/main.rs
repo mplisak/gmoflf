@@ -1,4 +1,17 @@
+//! gmoflf
 //! 
+//! Game of Life je matematická hra vynalezená matematikem J. H. Conwayem v roce 1970. Algoritmus aplikuje pravidla hry při každém posunu o jednotku času a určuje, které buňky ve čtvercové síti zemřou, které zůstanou živé, a které se stanou živými. Výsledek může připomínat pohyb nebo reprodukci živých organismů, proto "Hra života".
+//! 
+//! Na počátku byly čtyři pravidla:
+//! 
+//!     Každá živá buňka s méně než dvěma živými sousedy zemře.
+//!     Každá živá buňka se dvěma nebo třemi živými sousedy zůstává žít.
+//!     Každá živá buňka s více než třemi živými sousedy zemře.
+//!     Každá mrtvá buňka s právě třemi živými sousedy oživne.
+//! 
+//! Před spuštěním hry uživatel vybere několik polí, které budou živými buňkami. Po spuštění už hru nelze ovlivňovat, vyvíjí se sama.
+//! 
+//! Game of Life je postavená vlastně výhradně na algoritmu, který vykonává sadu příkazů (čtyři pravidla), proto myslím, že se hodí do zadání úkolu.
 
 use web_view::*;
 
@@ -27,6 +40,7 @@ fn main() {
   <body/>
 </html>", include_str!("tres.css"), include_str!("dos.js"));
 
+	///packaging
     web_view::builder()
         .title(env!("CARGO_PKG_NAME"))
         .content(Content::Html(html_content))

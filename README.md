@@ -30,3 +30,11 @@ Tento projekt se kompiluje příkazem:
 cargo build --release
 ```
 binárka vyskočí v `target/release/gmoflf`.
+
+## Dokumentace
+Dokumentace se generuje příkazem:
+```
+cargo doc
+```
+Hlavní html soubor je `target/doc/gmoflf/index.html`.
+Všechno v `target/doc` je potřeba pro správné fungování.
