@@ -40,7 +40,6 @@ fn main() {
   <body/>
 </html>", include_str!("tres.css"), include_str!("dos.js"));
 
-	///packaging
     web_view::builder()
         .title(env!("CARGO_PKG_NAME"))
         .content(Content::Html(html_content))
